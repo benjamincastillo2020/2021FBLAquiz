@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Type 1
+        Multiple Choice
+    Type 2
+        Fill in the Blank
+    Type 3
+        Matching
+    Type 4
+        MultiChoice/MultiAnswer
+            Score Type 1
+                All Questions Correct for points
+            Score Type 2
+                Partial Credits for Correct Answers
+    Type 5
+        Drop Down
+-->
+<Questions>
+    <question type="1">
+        <Q> when was FBLA Founded? </Q>
+        <Answer choice="E">
+            2015
+        </Answer>
+        <Answer choice="F">
+            2016
+        </Answer>
+        <Answer choice="G">
+            1980
+        </Answer>
+        <Answer choice="H">
+            1940
+        </Answer>
+        <Answer choice="I">
+            1950
+        </Answer>
+        <correctAnswer> D </correctAnswer>
+    </question>
+
+    <question type="2">
+        <Q> What year was FBLA Founded? </Q>
+        <FillInAnswer>1940</FillInAnswer>
+    </question>
+
+    <question type="3">
+        <title> Please match the following questions to the corresponding Answer</title>
+        <Q answer="1940"> When was FBLA Founded</Q>
+        <Q answer="1939"> What year was it in 1939</Q>
+        <Q answer="1839"> What year was it in 1839</Q>
+        <Q answer="1739"> What year was it in 1739</Q>
+
+    </question>
+
+    <question type="4" scoreType="1">
+        <Q> when was FBLA Founded? </Q>
+        <Answer choice="E">
+            2015
+        </Answer>
+        <Answer choice="F">
+            1940
+        </Answer>
+        <Answer choice="G">
+            1980
+        </Answer>
+        <Answer choice="H">
+            1940
+        </Answer>
+        <Answer choice="I">
+            1940
+        </Answer>
+        <correctAnswer> F,H,I, </correctAnswer>
+
+    </question>
+
+    <question type="5">
+        <Q> when was FBLA Founded? </Q>
+        <Answer choice="E">
+            2015
+        </Answer>s
+        <Answer choice="F">
+            2016
+        </Answer>
+        <Answer choice="G">
+            1980
+        </Answer>
+        <Answer choice="H">
+            1940
+        </Answer>
+        <Answer choice="I">
+            1950
+        </Answer>
+        <correctAnswer> H </correctAnswer>
+    </question>
+</Questions>
